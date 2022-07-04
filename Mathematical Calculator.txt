@@ -1,0 +1,24 @@
+from tkinter import *
+from tkinter.ttk import *
+from tkinter import messagebox
+from tkinter import scrolledtext
+root=Tk()
+root.title("Mathematical Calculator")
+txt1=scrolledtext.ScrolledText(root,width=39,height=7).place(x=650,y=100)
+b1=Button(root,text="7").place(x=650,y=220)
+b2=Button(root,text="8").place(x=730,y=220)
+b3=Button(root,text="9").place(x=810,y=220)
+b4=Button(root,text="/").place(x=890,y=220)
+b5=Button(root,text="4").place(x=650,y=250)
+b6=Button(root,text="5").place(x=730,y=250)
+b7=Button(root,text="6").place(x=810,y=250)
+b8=Button(root,text="*").place(x=890,y=250)
+b9=Button(root,text="1").place(x=650,y=280)
+b10=Button(root,text="2").place(x=730,y=280)
+b11=Button(root,text="3").place(x=810,y=280)
+b12=Button(root,text="-").place(x=890,y=280)
+b13=Button(root,text="0").place(x=650,y=310)
+b14=Button(root,text=".").place(x=730,y=310)
+b15=Button(root,text="+").place(x=810,y=310)
+b16=Button(root,text="=").place(x=890,y=310)
+root.mainloop()
